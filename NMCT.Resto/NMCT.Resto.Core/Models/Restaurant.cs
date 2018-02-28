@@ -10,6 +10,7 @@ namespace NMCT.Resto.Core.Model
         public string Name { get; set; }
         public string Cuisines { get; set; }
         public int PriceRange { get; set; }
+        public string PriceRangeString { get; set; }
 
         public string ImageUrl { get; set; }
         public string ThumbUrl { get; set; }
